@@ -37,7 +37,7 @@ To run this tool on a nexus tree please follow the steps below:
   
   Note: the user can run multiple functions on the treefile, eg. `python pdstat.py treename.tre 10 -fmax -fmin`, or can run all functions with the `-fall` flag.
     
-3. The output of the above command will be a file named "annotated_tree_nex" with the clades annotated with the maxPD (or other statistic) at clades with k=10. This tree file can be opened with FigTree, and the nodes annotated using the "node labels" or "node shapes" menu.
+3. The output of the above command will be a file named "annotated_tree_nex" with the clades annotated with the maxPD (or other statistic) at clades with k=10. This tree file can be opened with FigTree, and the nodes annotated using the "node labels" or "node shapes" menu. A second output file "PDSTAT.txt" will list the nodel label, the selected k, and the statistical measure calculated for that node (NodeID can be determined by using FigTree and selecting Node Labels/label).
 
 Input test files with different numbers of input taxa are also present in the directory (t50.tre,t100.tre,t200.tre,t300.tre,t400.tre).
 
